@@ -1,22 +1,15 @@
-"""One-Sentence Absurd Invention Pitch.
+"""One-sentence absurd invention pitch: the Polite Microwave.
 
-Writes a single sentence pitching a ridiculous invention that fixes a tiny
-everyday annoyance, to $MAKEFUN_OUTPUT_DIR/entry.txt (or /output/entry.txt).
-
-The pitch: the Polite Microwave. Every microwave finishes cooking and then
-shrieks every thirty seconds until someone opens the door. Ours beeps once,
-gently, then waits in dignified silence. The invention's defining trait --
-manners -- is the fix itself: no more nagging beeps, just a polite appliance
-that trusts you to remember your own lunch.
+A microwave that, instead of shrieking every thirty seconds until someone
+opens the door, beeps once -- gently -- and then waits in dignified silence,
+trusting you to remember your own lunch. The joke is that the invention's
+only feature is manners: a polite appliance that fixes a tiny everyday
+annoyance by simply not nagging.
 """
 
 import os
 
-SENTENCE = (
-    "The Polite Microwave beeps once, gently, then waits in dignified "
-    "silence instead of shrieking every thirty seconds until you finally "
-    "open the door."
-)
+SENTENCE = "The Polite Microwave beeps once, gently, then waits in dignified silence instead of shrieking every thirty seconds until you finally open the door."
 
 MAX_CHARS = 220
 
